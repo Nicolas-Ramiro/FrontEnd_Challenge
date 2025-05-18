@@ -13,7 +13,7 @@ footer {
   .footer-column {
     flex: 1;
     min-width: 250px;
-    margin-right: 50px;
+    margin-right: 100px;
   }
   
   .footer-column h3 {

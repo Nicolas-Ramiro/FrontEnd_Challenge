@@ -1,0 +1,92 @@
+body {
+    background: url('paisagem.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0px;
+}
+
+main {
+    text-align: left;
+  }
+
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 50px;
+}
+
+.formulario,
+.informacoes {
+    flex: 1;
+    min-width: 300px;
+}
+
+.titulo-laranja {
+    color: #f57c00;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.formulario form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+input, textarea {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #e0e0e0;
+    color: #333;
+    resize: none;
+}
+
+textarea {
+    height: 140px;
+}
+
+button {
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 120px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.informacoes{
+    margin-left: 120px;
+}
+
+.informacoes a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.informacoes a:hover {
+    text-decoration: underline;
+}
+
+.endereco {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.6;
+}

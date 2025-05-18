@@ -3,49 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mindev - Quem somos</title>
+        <title>Mindev - Home</title>
         <link rel="stylesheet" href="Header.css">
         <link rel="stylesheet" href="Footer.css">
-        <link rel="stylesheet" href="quem-somos.css">
+        <link rel="stylesheet" href="Contato.css">
     </head>
     <body>
         <header class="navbar"> 
             <img src="LogoMindev.png" alt="Logo Mindev" class="logoH">
             <nav class="nav-links">
                 <a href="Home.html">Home</a>
-                <a href="Quem-somos.html" class="active">Quem somos</a>
+                <a href="Quem-somos.html">Quem somos</a>
                 <a href="faq.html">FAQ</a>
-                <a href="Contato.html">Contato</a>
+                <a href="contato.html" class="active">Contato</a>
             </nav>
         </header>
 
         <main>
-            <h1 class="title">FOUNDERS</h1>
-            <div class="founders">
-                <div class="founder">
-                    <img src="Hebert.jpg" alt="Hebert Lopes dos Santos" class="avatar">
-                    <p>Hebert Lopes dos Santos<br>RM: 563192<br>1TDSR</p>
-                    <a href="https://github.com/Hebertlps">GitHub</a><br>
-                    <a href="#">Linkedin</a>
+            <div class="contato-container">
+                <div class="formulario">
+                    <h1 class="titulo-laranja">Deseja falar conosco?</h1>
+                    <p>Deixe uma mensagem no formulário abaixo!</p>
+                    <form>
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Como podemos te ajudar?" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
 
-                <div class="founder">
-                    <img src="Marcus.jpg" alt="Marcus Vinícius Vila Nova da Silva" class="avatar">
-                    <p>Marcus Vinícius Vila Nova da Silva<br>RM: 558771<br>1TDSR</p>
-                    <a href="https://github.com/marcusvilanova">GitHub</a><br>
-                    <a href="https://www.linkedin.com/in/marcus-vin%C3%ADcius-vila-nova-da-silva?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a>
-                </div>
-
-                <div class="founder">
-                    <img src="Nicolas.jpg" alt="Nicolas Monteiro Ramiro" class="avatar">
-                    <p>Nicolas Monteiro Ramiro<br>RM: 562380<br>1TDSR</p>
-                    <a href="https://github.com/Nicolas-Ramiro">GitHub</a><br>
-                    <a href="https://www.linkedin.com/in/nicolas-ramiro-4a44bb346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a>
+                <div class="informacoes">
+                    <h1 class="titulo-laranja">Entre em contato!</h1>
+                    <p><a href="mailto:Mindev@gmail.com">Mindev@gmail.com</a></p>
+                    <p class="endereco">Estamos localizados na<br>Av. Lins de Vasconcelos,<br>1222</p>
                 </div>
             </div>
         </main>
 
-        
         <footer>
             <div class="footer-column">
             <h3>Mindev</h3>
