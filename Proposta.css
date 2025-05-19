@@ -1,0 +1,54 @@
+/* Estilo principal do body da página Proposta */
+body{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+              url('paisagem.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    font-family: arial, sans-serif;
+
+}
+
+.proposta-container {
+  padding: 60px 20px;
+  min-height: calc(100vh - 200px); /* compensar header e footer */
+  color: #ffffff;
+}
+
+.proposta-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(33, 33, 33, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.572);
+}
+
+.proposta-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #ff7f27;
+  text-align: center;
+}
+
+.proposta-content h2 {
+  color: #ff9933;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.proposta-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.proposta-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.proposta-content li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}

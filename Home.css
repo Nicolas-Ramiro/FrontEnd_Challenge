@@ -1,26 +1,27 @@
 body {
-    margin: 0;
-    font-family: Arial;
-    background: url('paisagem.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-  }
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+          url('paisagem.jpg') no-repeat center center;    background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
   
-  main {
-    text-align: left;
-  }
+main {
+  text-align: left;
+}
 
-  .logo-text {
-    font-size: 48px;
-    color: #f57c00;
-    margin-left: 50px;
-  }
- .texto{
-    margin-left: 50px;
-    max-width: 800px;
-    font-size: 24px;
+.logo-text {
+  font-size: 48px;
+  color: #f57c00;
+  margin-left: 50px;
+}
+
+.texto{
+  margin-left: 50px;
+  max-width: 800px;
+  font-size: 24px;
  }
