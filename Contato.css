@@ -7,13 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     margin: 0px;
 }
-
-main {
-    text-align: left;
-  }
 
 .contato-container {
     display: flex;
@@ -21,6 +17,10 @@ main {
     flex-wrap: wrap;
     gap: 60px;
     margin-left: 50px;
+    text-align: left;
+    position: relative;;
+    margin-bottom: 20px;
+    margin-top: 160px;
 }
 
 .formulario,

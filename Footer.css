@@ -6,8 +6,9 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 260px;
-    box-sizing: border-box; 
+    height: fit-content;
+    box-sizing: border-box;
+    width: 100%; 
     }
   
   .footer-column {

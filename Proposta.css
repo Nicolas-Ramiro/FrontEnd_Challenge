@@ -12,6 +12,10 @@ body{
   padding: 60px 20px;
   min-height: calc(100vh - 200px); /* compensar header e footer */
   color: #ffffff;
+  position: relative;;
+  text-align: left;
+  margin-top: 160px;
+  margin-bottom: 20px;
 }
 
 .proposta-content {

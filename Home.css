@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: Arial;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-          url('paisagem.jpg') no-repeat center center;    background-size: cover;
+          url('paisagem.jpg') no-repeat center center;    
+  background-size: cover;
   color: white;
   display: flex;
   flex-direction: column;
@@ -11,7 +12,9 @@ body {
 }
   
 main {
+  position: relative;;
   text-align: left;
+  margin-top: 160px;
 }
 
 .logo-text {
