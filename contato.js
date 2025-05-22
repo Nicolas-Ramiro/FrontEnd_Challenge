@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const form = document.getElementById("form-contato");
+    const form = document.getElementById("contato-container");
 
     if(form) {
         form.addEventListener("submit", function (event){
@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log("Mensagem: ", mensagem);
         });
     } else {
-        console.warn("Formulario com id 'form-contato' não encontrado.")
+        console.warn("Formulario com id 'contato-container' não encontrado.")
     }
 })
