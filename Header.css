@@ -36,3 +36,93 @@
   .nav-links a.active {
     color: white;
   } 
+
+  /* >=1300px */
+@media (min-width: 1300px) {
+  .nav-links a {
+    font-size: 28px;
+    gap: 60px;
+  }
+}
+
+/* >=992px */
+@media (min-width: 992px) and (max-width: 1299px) {
+  .nav-links {
+    gap: 40px;
+  }
+
+  .nav-links a {
+    font-size: 24px;
+  }
+  .logoH {
+    height: 90px;
+  }
+}
+
+/* >=768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-links {
+    gap: 30px;
+  }
+
+  .nav-links a {
+    font-size: 22px;
+  }
+
+  .logoH {
+    height: 80px;
+    left: 20px;
+  }
+}
+
+/* >=600px */
+@media (min-width: 600px) and (max-width: 767px) {
+  .navbar {
+    height: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+  }
+
+  .logoH {
+    position: static;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+}
+
+/* <600px */
+@media (max-width: 599px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .logoH {
+    position: static;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+  }
+}

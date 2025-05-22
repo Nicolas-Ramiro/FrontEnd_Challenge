@@ -28,3 +28,82 @@ main {
   max-width: 800px;
   font-size: 24px;
  }
+
+ /* >=1300px */
+@media (min-width: 1300px) {
+  .logo-text {
+    font-size: 56px;
+    margin-left: 80px;
+  }
+
+  .texto {
+    margin-left: 80px;
+    font-size: 26px;
+    max-width: 1000px;
+  }
+}
+
+/* >=992px */
+@media (min-width: 992px) and (max-width: 1299px) {
+  .logo-text {
+    font-size: 48px;
+    margin-left: 60px;
+  }
+
+  .texto {
+    margin-left: 60px;
+    font-size: 24px;
+    max-width: 900px;
+  }
+}
+
+/* >=768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo-text {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+
+  .texto {
+    margin-left: 40px;
+    font-size: 20px;
+    max-width: 700px;
+  }
+}
+
+/* >=600px */
+@media (min-width: 600px) and (max-width: 767px) {
+  .logo-text {
+    font-size: 36px;
+    margin-left: 30px;
+  }
+
+  .texto {
+    margin-left: 30px;
+    font-size: 18px;
+    max-width: 600px;
+  }
+}
+
+/* <600px */
+@media (max-width: 599px) {
+  main {
+    position: relative;
+    margin-top: 280px;
+  }
+
+  .logo-text {
+    font-size: 28px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .texto {
+    margin: 20px;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 100%;
+  }
+}
+
+
