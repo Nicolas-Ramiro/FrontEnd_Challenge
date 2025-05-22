@@ -58,3 +58,138 @@ main {
 .founder a:hover {
   text-decoration: underline;
 }
+
+/* >=1300px */
+@media (min-width: 1300px) {
+  .title {
+    font-size: 48px;
+    margin-bottom: 120px;
+  }
+
+  .founders {
+    gap: 260px;
+  }
+
+  .founder {
+    font-size: 22px;
+  }
+
+  .founder a {
+    font-size: 24px;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* >=992px */
+@media (min-width: 992px) and (max-width: 1299px) {
+  .title {
+    font-size: 42px;
+    margin-bottom: 100px;
+  }
+
+  .founders {
+    gap: 160px;
+  }
+
+  .founder {
+    font-size: 20px;
+  }
+
+  .founder a {
+    font-size: 22px;
+  }
+
+  .avatar {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* >=768px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .title {
+    font-size: 36px;
+    margin-bottom: 80px;
+  }
+
+  .founders {
+    gap: 100px;
+  }
+
+  .founder {
+    font-size: 18px;
+  }
+
+  .founder a {
+    font-size: 20px;
+  }
+
+  .avatar {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* >=600px */
+@media (min-width: 600px) and (max-width: 767px) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+
+  .founders {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .founder {
+    font-size: 18px;
+  }
+
+  .founder a {
+    font-size: 18px;
+  }
+
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* <600px */
+@media (max-width: 599px) {
+  main {
+    position: relative;
+    margin-top: 260px;
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .founders {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .founder {
+    font-size: 16px;
+  }
+
+  .founder a {
+    font-size: 16px;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
